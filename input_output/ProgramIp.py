@@ -1,0 +1,1 @@
+print('The sum: ',int(input("enter 1: ")) +  int(input("enter 2:")))
