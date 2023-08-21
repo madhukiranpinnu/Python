@@ -1,0 +1,25 @@
+#1
+t=()
+print(type(t))
+#2
+t=(10,)
+print(type(t))
+t=(10,20,30)
+print(type(t))
+t=tuple()
+print(type(t))
+l=[10,20,30]
+print(l)
+print(type(l))
+t=tuple(l)
+print(t)
+print(type(t))
+t=tuple(range(1,45,8))
+print(t)
+print(type(t))
+t=tuple("durga")
+print(t)
+print(type(t))
+#dynamic tuple"
+t=eval(input("Enter tuple of values"))
+print(t)

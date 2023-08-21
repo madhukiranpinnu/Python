@@ -1,0 +1,11 @@
+a,b,c,d=10,20,30,40
+t=a,b,c,d
+print(t)
+#packing
+#unpacking
+t=10,45,56,67
+a,b,c,d=t
+print(a)
+print(b)
+print(c)
+print(d)
