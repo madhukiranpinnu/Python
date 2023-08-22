@@ -1,0 +1,11 @@
+s={10,20,30,40}
+t={30,40,50,60}
+print(s|t)
+print(s.union(t))
+print(s&t)
+print(s.intersection(t))
+print(s.difference(t))
+print(s-t)
+print(t-s)
+print(s.symmetric_difference(t))
+print(s^t)
